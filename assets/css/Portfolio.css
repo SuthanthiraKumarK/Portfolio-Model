@@ -1,0 +1,132 @@
+/* Initial Settings */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ body {
+    /* background-color : rgb(255, 255, 255); */
+    background-image: url(./code_background.jpg);
+    background-size: cover;
+    backdrop-filter: blur(4px);
+    background-repeat: no-repeat;
+    background-position: -300px 10px;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: justify;
+ }
+ 
+
+::-webkit-input-placeholder{
+    font-size: 15px;
+    text-align: center;
+}
+
+body a{
+    text-decoration: none;
+    color: rgb(119, 0, 0);
+}
+
+body :not(.section_1) :not(.section_3) a:hover{
+    text-decoration: underline;
+    color: rgba(255, 255, 255, 0.712);
+}
+
+body :not(.contact__section) i {
+    opacity: 0.6;
+}
+
+.section_2, .section_3, .section_4, .section_6, .section_7 {
+    padding: 10px;
+}
+
+.divs {
+   background-color: rgba(170, 214, 255, 0.801); 
+   box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.575);
+}
+
+.divs:hover {
+background-color: rgba(96, 178, 255, 0.801);
+}
+
+
+/* Section 1 */
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    /* background-color :  rgba(53, 226, 140, 0.801); */
+    background-color: rgba(170, 214, 255, 0.801); 
+    border-bottom: 1px solid rgba(0, 0, 0, 0.095);
+    text-align: center;
+}
+
+.header h4 {
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}S
+
+.header .desn {
+width: 350px;
+margin-left: 10px;
+}
+
+.header .desn p {
+    letter-spacing: 10px;
+}
+
+
+/* Section 2 */
+.div2 {
+    margin-top: 23px;
+}
+
+/* Section 3 */
+.section_3 a:hover{
+    color: rgb(222, 237, 255);
+}
+
+
+/* Section 4 */
+.section_4, .banner{
+height: 100%;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+  }
+  
+.dropdown>.dropdown-toggle:active {
+    /*Without this, clicking will make it sticky*/
+      pointer-events: none;
+  }
+
+.section_4 .tech .dropdown-menu {
+    margin-left: -7px;
+    text-align: center;
+}
+
+.section_4 .soft .dropdown-menu {
+    margin-left: -23px;
+    text-align: center;
+}
+
+/* Section 5 */
+.project_div_main {
+height: 400px;
+}
+
+.section_5 {
+    padding-bottom: 10px;
+}
+
+.section_5 .carousel-item .project-info {
+    width: 80%;
+}
+
+/* Section 7 */
+.section_7 input,textarea {
+    width: 300px;
+}
+
+
