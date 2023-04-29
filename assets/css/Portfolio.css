@@ -15,6 +15,11 @@
     font-family: 'Ubuntu', sans-serif;
     text-align: justify;
  }
+
+ html {
+    scroll-behavior: smooth;
+
+ }
  
 
 ::-webkit-input-placeholder{
@@ -29,7 +34,7 @@ body a{
 
 body :not(.section_1) :not(.section_3) a:hover{
     text-decoration: underline;
-    color: rgba(255, 255, 255, 0.712);
+    color: rgb(54, 32, 255);
 }
 
 body :not(.contact__section) i {
@@ -41,12 +46,12 @@ body :not(.contact__section) i {
 }
 
 .divs {
-   background-color: rgba(170, 214, 255, 0.801); 
+   background-color: rgba(255, 255, 255); 
    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.575);
 }
 
 .divs:hover {
-background-color: rgba(96, 178, 255, 0.801);
+    background-color: rgb(179, 246, 255); 
 }
 
 
@@ -55,8 +60,7 @@ background-color: rgba(96, 178, 255, 0.801);
     position: sticky;
     top: 0;
     z-index: 2;
-    /* background-color :  rgba(53, 226, 140, 0.801); */
-    background-color: rgba(170, 214, 255, 0.801); 
+    background-color: rgba(255, 255, 255); 
     border-bottom: 1px solid rgba(0, 0, 0, 0.095);
     text-align: center;
 }
@@ -83,7 +87,7 @@ margin-left: 10px;
 
 /* Section 3 */
 .section_3 a:hover{
-    color: rgb(222, 237, 255);
+    color: rgb(54, 32, 255);
 }
 
 
@@ -110,6 +114,12 @@ height: 100%;
     margin-left: -23px;
     text-align: center;
 }
+
+.section_4 ul {
+    background-color: rgb(222, 251, 255); 
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.384);
+}
+
 
 /* Section 5 */
 .project_div_main {

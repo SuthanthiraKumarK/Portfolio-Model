@@ -17,9 +17,13 @@ const headerDiv = header.getBoundingClientRect();
 // EVENTS
 window.addEventListener('scroll',function(){
     if (this.pageYOffset>=23){
-        header.style.backgroundColor='rgba(170, 204, 255)';
+        header.style.backgroundColor='rgb(29, 35, 37)';
+        nameText.style.color = 'rgba(255, 255, 255)';
+        desnText.style.color = 'rgba(255, 255, 255)';
     } else {
-        header.style.backgroundColor='rgba(170, 214, 255, 0.801)';
+        header.style.backgroundColor='rgba(255, 255, 255)';
+        nameText.style.color = 'rgba(0, 0, 0)';
+        desnText.style.color = 'rgba(0, 0, 0)';
     }   
 });
 
